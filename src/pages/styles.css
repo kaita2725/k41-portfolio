@@ -1,0 +1,21 @@
+html,
+body{
+    margin: 0;
+    padding: 0;
+    overflow: overlay;
+    z-index: -25;
+    position:relative;
+}
+
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 3px;
+  height: 10px;
+  background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: black;
+  border-radius: 2px;
+}
