@@ -3,6 +3,7 @@ import styled from "@emotion/styled";
 import { BoxFace } from '../components/styles';
 import { mq } from "./breakpoints";
 import { FrontFace, BackFace, LeftFace, RightFace, TopFace, BottomFace } from "./box/faces";
+import Project from "./project";
 import About from "./about";
 
 const BoxScene = styled.section`
@@ -73,7 +74,7 @@ const Box = ({value}) =>{
   return(
     <BoxScene>
       <BoxWrapper value={value}>
-        <RightFace style={BoxFace}>right</RightFace>
+        <RightFace style={BoxFace}><Project/></RightFace>
         <BottomFace style={BoxFace}><About/></BottomFace>
       </BoxWrapper>
     </BoxScene>

@@ -21,7 +21,7 @@ const Wrapper = styled.div`
   }
 `
 
-const Images = () => {
+const ProfileImage = () => {
   return(
     <Wrapper>
       <StaticImage
@@ -33,4 +33,4 @@ const Images = () => {
     </Wrapper>
   )
 }
-export default Images
+export default ProfileImage

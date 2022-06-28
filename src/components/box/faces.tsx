@@ -39,6 +39,7 @@ export const RightFace = styled.div`
   ${mq[1]} {
     transform: rotateY(90deg) translateZ(50vw);
   }
+
 `
 export const TopFace = styled.div`
   width: 35%;

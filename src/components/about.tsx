@@ -1,9 +1,8 @@
 import * as React from "react"
 import styled from "@emotion/styled";
-import { css } from "@emotion/react";
 import { mq } from "./breakpoints";
 import Grid from "../components/grid";
-import Images from "../components/images";
+import ProfileImage from "../components/profileImage";
 import {profileLinks} from '../data/profileData';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
@@ -112,7 +111,6 @@ const IconStyle = styled.div`
     font-size: 1.2em;
   }
 `
-
 const ContactList = styled.li`
   font-weight: 600;
   font-size: 1.25em;
@@ -130,9 +128,6 @@ const ContactList = styled.li`
       transform: scale(1) translateY(10px);
     }
   }
-  ${mq[3]} {
-    font-size: ;
-  }
 `
 
 const About = () =>{
@@ -142,7 +137,7 @@ const About = () =>{
       Hello, my name is Adriel Chandra, based in Tangerang, Indonesia, who has interest in Cybersecurity on cloud computing or Full Stack developer on Websites or Application Development.
       In working environment, I am able to work in groups or individually.
       </DescStyle>
-      <Images/>
+      <ProfileImage/>
       <ContactAnchor>
         < ContactTitle>
           Contacts
