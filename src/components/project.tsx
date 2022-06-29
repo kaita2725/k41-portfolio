@@ -73,7 +73,14 @@ const CardContainer = styled.div`
     max-height:500px;
     margin: 2%;
   }
-
+  @media (min-height: 480px) {
+    min-height:350px;
+    max-height:350px;
+  }
+  @media (min-height: 640px) {
+    min-height:450px;
+    max-height:450px;
+  }
 `
 
 const Container = styled.div`

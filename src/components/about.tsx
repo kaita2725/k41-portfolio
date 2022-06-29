@@ -26,9 +26,11 @@ const DescStyle = styled.p`
     font-size: 2em;
   }
   ${mq[3]} {
-    font-size: 2.5em;
+    top:15%;
+    position:absolute;
+    margin: 0 5% 1% 5%;
+    font-size: 2.25em;
   }
-
 
 `
 
@@ -68,7 +70,7 @@ const ContactAnchor = styled.ul`
     width: 35vw;
   }
   ${mq[3]} {
-    top:75%;
+    top:70%;
     margin-left:5%;
     padding:0;
     width: 35vw;
