@@ -28,6 +28,6 @@ export const profileLinks =[
     type:"email",
     text:"Mail",
     icon: faEnvelope,
-    email:"adriel.chandra@umn.ac.id",
+    email:"adriel.chandra@student.umn.ac.id",
   }
 ]
