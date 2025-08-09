@@ -1,0 +1,50 @@
+{
+    "i18n":{
+        "language": "Language",
+        "placeholder":"Reselect language"
+    },
+    "theme":{
+        "toggle-msg":"Sync theme with device",
+        "btn-msg-light":"Light Mode",
+        "btn-msg-dark":"Dark Mode"
+    },
+    "alert":{
+        "connection-to-server-failed" : "Connection to server failed. Please try again later."
+    },
+    "date":{
+        "dateFormat": "MM/DD/YYYY",
+        "timeFormat": "HH:mm"
+    },
+    "response":{
+        "code-not-registered": "code not registered",
+        "code":{
+            "404": "not found"
+        }
+    },
+    "component":{},
+    "feature":{
+        "notification":{
+
+        }
+    },
+    "validation":{},
+    "contextual-example":{
+    },
+    "menu":{
+    },
+    "page":{
+        "home":{
+            "meta-title":"",
+            "meta-description":"",
+            "meta-keywords":""
+        },
+        "notfound":{
+            "meta-title":"Page Not Found",
+            "meta-description":"page not found, invalid routes",
+            "meta-keywords":"404 error, page not found, page missing, broken link, resource not found, url not found",
+            "notFound": "Page Not Found!",
+            "notFoundDetails": "Nothing to see here.",
+            "notFoundLink": "Click here to go back Home."
+        }
+    }
+}

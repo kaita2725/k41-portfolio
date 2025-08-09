@@ -1,0 +1,55 @@
+{
+    "i18n":{
+        "language": "Bahasa",
+        "placeholder":"Pilih ulang bahasa"
+    },
+    "theme":{
+        "toggle-msg":"Sinkron tema dengan perangkat",
+        "btn-msg-light":"Mode Terang",
+        "btn-msg-dark":"Mode Gelap"
+    },
+    "alert":{
+        "connection-to-server-failed" : "Koneksi ke server gagal. Mohon dicoba lagi nanti."
+    },
+    "date":{
+        "dateFormat": "MM/DD/YYYY",
+        "timeFormat": "HH:mm"
+    },
+    "response":{
+        "code-not-registered": "kode tidak terdaftar",
+        "code":{
+            "404": "not found"
+        }
+    },
+    "component":{
+        "ui":{
+        }
+    },
+    "feature":{
+        "notification":{
+
+        }
+    },
+    "validation":{},
+    "contextual":{
+        "save": "Save",
+        "submit": "Submit",
+        "action.saveProfile": "Save Profile",
+        "action.saveSettings": "Save Settings"
+    },
+    "page":{
+        "home":{
+            "meta-title":"",
+            "meta-description":"",
+            "meta-keywords":""
+        },
+        "notfound":{
+            "meta-title":"Page Not Found",
+            "meta-description":"halaman tidak ditemukan, rute tidak valid",
+            "meta-keywords":"Error 404, halaman tidak ditemukan, halaman hilang, link rusak, sumber tidak ditemukan, url tidak ditemukan",
+            "notFound": "Halaman Tidak Ditemukan!",
+            "notFoundDetails": "Tidak ada yang bisa dilihat disini.",
+            "notFoundLink": "Klik di sini untuk kembali ke Beranda."
+        }
+    }
+}
